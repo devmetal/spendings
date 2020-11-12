@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sanity snapshot test 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="mb-3 input-group"
+        >
+          <div
+            class="input-group-prepend"
+          >
+            <span
+              class="input-group-text"
+            >
+              Name
+            </span>
+          </div>
+          <input
+            class="form-control"
+            data-testid="name"
+            type="text"
+            value=""
+          />
+          <div
+            class="input-group-prepend"
+          >
+            <span
+              class="input-group-text"
+            >
+              Amount
+            </span>
+          </div>
+          <input
+            class="form-control"
+            data-testid="amount"
+            min="1"
+            type="number"
+            value=""
+          />
+          <div
+            class="input-group-prepend"
+          >
+            <button
+              class="btn btn-outline-primary"
+              type="button"
+            >
+              Save
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="container"
+      >
+        <div
+          class="list-group"
+        >
+          <div
+            class="list-group-item"
+          >
+            <div
+              class="list-group list-group-horizontal"
+            >
+              <div
+                class="list-group-item"
+              >
+                Teszt
+              </div>
+              <div
+                class="list-group-item"
+              >
+                100
+              </div>
+              <div
+                class="list-group-item list-group-item-danger"
+              >
+                Delete
+              </div>
+            </div>
+          </div>
+          <div
+            class="list-group-item"
+          >
+            <div
+              class="list-group list-group-horizontal"
+            >
+              <div
+                class="list-group-item"
+              >
+                Teszt1
+              </div>
+              <div
+                class="list-group-item"
+              >
+                101
+              </div>
+              <div
+                class="list-group-item list-group-item-danger"
+              >
+                Delete
+              </div>
+            </div>
+          </div>
+          <div
+            class="list-group-item"
+          >
+            <div
+              class="list-group list-group-horizontal"
+            >
+              <div
+                class="list-group-item"
+              >
+                Teszt2
+              </div>
+              <div
+                class="list-group-item"
+              >
+                102
+              </div>
+              <div
+                class="list-group-item list-group-item-danger"
+              >
+                Delete
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

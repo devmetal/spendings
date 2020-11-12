@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sanity snapshot testing 1`] = `
+<div>
+  <div
+    class="list-group"
+  >
+    <div
+      class="list-group-item"
+    >
+      <div
+        class="list-group list-group-horizontal"
+      >
+        <div
+          class="list-group-item"
+        >
+          test
+        </div>
+        <div
+          class="list-group-item"
+        >
+          10
+        </div>
+        <div
+          class="list-group-item list-group-item-danger"
+        >
+          Delete
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

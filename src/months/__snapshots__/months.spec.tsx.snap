@@ -1,0 +1,1189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sanity snapshot test 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Container"
+      >
+        <div
+          data-testid="month"
+          style="position: absolute; height: 100vh; width: 100%; display: none; transform: translate3d(-2048px,0,0);"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              Started: 
+              2020-10-26
+              Ended: 
+              2020-10-27
+            </div>
+            <div
+              class="container"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="container"
+                >
+                  <div
+                    class="mb-3 input-group"
+                  >
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <span
+                        class="input-group-text"
+                      >
+                        Name
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      data-testid="name"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <span
+                        class="input-group-text"
+                      >
+                        Amount
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      data-testid="amount"
+                      min="1"
+                      type="number"
+                      value=""
+                    />
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        Save
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="container"
+                >
+                  <div
+                    class="list-group"
+                  >
+                    <div
+                      class="list-group-item"
+                    >
+                      <div
+                        class="list-group list-group-horizontal"
+                      >
+                        <div
+                          class="list-group-item"
+                        >
+                          Teszt
+                        </div>
+                        <div
+                          class="list-group-item"
+                        >
+                          500
+                        </div>
+                        <div
+                          class="list-group-item list-group-item-danger"
+                        >
+                          Delete
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="list-group-item"
+                    >
+                      <div
+                        class="list-group list-group-horizontal"
+                      >
+                        <div
+                          class="list-group-item"
+                        >
+                          Teszt
+                        </div>
+                        <div
+                          class="list-group-item"
+                        >
+                          500
+                        </div>
+                        <div
+                          class="list-group-item list-group-item-danger"
+                        >
+                          Delete
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              Ended: 
+              2020-10-27
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                See the results
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-testid="month"
+          style="position: absolute; height: 100vh; width: 100%; display: block; transform: translate3d(-1024px,0,0);"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              Started: 
+              2020-10-27
+              Ended: 
+              2020-10-28
+            </div>
+            <div
+              class="container"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="container"
+                >
+                  <div
+                    class="mb-3 input-group"
+                  >
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <span
+                        class="input-group-text"
+                      >
+                        Name
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      data-testid="name"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <span
+                        class="input-group-text"
+                      >
+                        Amount
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      data-testid="amount"
+                      min="1"
+                      type="number"
+                      value=""
+                    />
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        Save
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="container"
+                >
+                  <div
+                    class="list-group"
+                  >
+                    <div
+                      class="list-group-item"
+                    >
+                      <div
+                        class="list-group list-group-horizontal"
+                      >
+                        <div
+                          class="list-group-item"
+                        >
+                          Teszt
+                        </div>
+                        <div
+                          class="list-group-item"
+                        >
+                          500
+                        </div>
+                        <div
+                          class="list-group-item list-group-item-danger"
+                        >
+                          Delete
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="list-group-item"
+                    >
+                      <div
+                        class="list-group list-group-horizontal"
+                      >
+                        <div
+                          class="list-group-item"
+                        >
+                          Teszt
+                        </div>
+                        <div
+                          class="list-group-item"
+                        >
+                          500
+                        </div>
+                        <div
+                          class="list-group-item list-group-item-danger"
+                        >
+                          Delete
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              Ended: 
+              2020-10-28
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                See the results
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-testid="month"
+          style="position: absolute; height: 100vh; width: 100%; display: block; transform: translate3d(0px,0,0);"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              Started: 
+              2020-10-28
+              Ended: 
+              2020-10-29
+            </div>
+            <div
+              class="container"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="container"
+                >
+                  <div
+                    class="mb-3 input-group"
+                  >
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <span
+                        class="input-group-text"
+                      >
+                        Name
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      data-testid="name"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <span
+                        class="input-group-text"
+                      >
+                        Amount
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      data-testid="amount"
+                      min="1"
+                      type="number"
+                      value=""
+                    />
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        Save
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="container"
+                >
+                  <div
+                    class="list-group"
+                  >
+                    <div
+                      class="list-group-item"
+                    >
+                      <div
+                        class="list-group list-group-horizontal"
+                      >
+                        <div
+                          class="list-group-item"
+                        >
+                          Teszt
+                        </div>
+                        <div
+                          class="list-group-item"
+                        >
+                          500
+                        </div>
+                        <div
+                          class="list-group-item list-group-item-danger"
+                        >
+                          Delete
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="list-group-item"
+                    >
+                      <div
+                        class="list-group list-group-horizontal"
+                      >
+                        <div
+                          class="list-group-item"
+                        >
+                          Teszt
+                        </div>
+                        <div
+                          class="list-group-item"
+                        >
+                          500
+                        </div>
+                        <div
+                          class="list-group-item list-group-item-danger"
+                        >
+                          Delete
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              Ended: 
+              2020-10-29
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                See the results
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-testid="month"
+          style="position: absolute; height: 100vh; width: 100%; display: block; transform: translate3d(1024px,0,0);"
+        >
+          <div
+            class="card"
+          >
+            <div
+              class="card-header"
+            >
+              Start a new period
+            </div>
+            <div
+              class="container"
+            >
+              <div
+                class="row"
+              >
+                <div
+                  class="container"
+                >
+                  <div
+                    class="mb-3 input-group"
+                  >
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <span
+                        class="input-group-text"
+                      >
+                        Name
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      data-testid="name"
+                      type="text"
+                      value=""
+                    />
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <span
+                        class="input-group-text"
+                      >
+                        Amount
+                      </span>
+                    </div>
+                    <input
+                      class="form-control"
+                      data-testid="amount"
+                      min="1"
+                      type="number"
+                      value=""
+                    />
+                    <div
+                      class="input-group-prepend"
+                    >
+                      <button
+                        class="btn btn-outline-primary"
+                        type="button"
+                      >
+                        Save
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="row"
+              >
+                <div
+                  class="container"
+                >
+                  <div
+                    class="list-group"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              class="card-body"
+            >
+              <button
+                class="btn btn-primary"
+                type="button"
+              >
+                Start this period
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Container"
+    >
+      <div
+        data-testid="month"
+        style="position: absolute; height: 100vh; width: 100%; display: none; transform: translate3d(-2048px,0,0);"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-header"
+          >
+            Started: 
+            2020-10-26
+            Ended: 
+            2020-10-27
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="mb-3 input-group"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <span
+                      class="input-group-text"
+                    >
+                      Name
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    data-testid="name"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <span
+                      class="input-group-text"
+                    >
+                      Amount
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    data-testid="amount"
+                    min="1"
+                    type="number"
+                    value=""
+                  />
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <button
+                      class="btn btn-outline-primary"
+                      type="button"
+                    >
+                      Save
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="list-group"
+                >
+                  <div
+                    class="list-group-item"
+                  >
+                    <div
+                      class="list-group list-group-horizontal"
+                    >
+                      <div
+                        class="list-group-item"
+                      >
+                        Teszt
+                      </div>
+                      <div
+                        class="list-group-item"
+                      >
+                        500
+                      </div>
+                      <div
+                        class="list-group-item list-group-item-danger"
+                      >
+                        Delete
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="list-group-item"
+                  >
+                    <div
+                      class="list-group list-group-horizontal"
+                    >
+                      <div
+                        class="list-group-item"
+                      >
+                        Teszt
+                      </div>
+                      <div
+                        class="list-group-item"
+                      >
+                        500
+                      </div>
+                      <div
+                        class="list-group-item list-group-item-danger"
+                      >
+                        Delete
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card-body"
+          >
+            Ended: 
+            2020-10-27
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              See the results
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="month"
+        style="position: absolute; height: 100vh; width: 100%; display: block; transform: translate3d(-1024px,0,0);"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-header"
+          >
+            Started: 
+            2020-10-27
+            Ended: 
+            2020-10-28
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="mb-3 input-group"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <span
+                      class="input-group-text"
+                    >
+                      Name
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    data-testid="name"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <span
+                      class="input-group-text"
+                    >
+                      Amount
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    data-testid="amount"
+                    min="1"
+                    type="number"
+                    value=""
+                  />
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <button
+                      class="btn btn-outline-primary"
+                      type="button"
+                    >
+                      Save
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="list-group"
+                >
+                  <div
+                    class="list-group-item"
+                  >
+                    <div
+                      class="list-group list-group-horizontal"
+                    >
+                      <div
+                        class="list-group-item"
+                      >
+                        Teszt
+                      </div>
+                      <div
+                        class="list-group-item"
+                      >
+                        500
+                      </div>
+                      <div
+                        class="list-group-item list-group-item-danger"
+                      >
+                        Delete
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="list-group-item"
+                  >
+                    <div
+                      class="list-group list-group-horizontal"
+                    >
+                      <div
+                        class="list-group-item"
+                      >
+                        Teszt
+                      </div>
+                      <div
+                        class="list-group-item"
+                      >
+                        500
+                      </div>
+                      <div
+                        class="list-group-item list-group-item-danger"
+                      >
+                        Delete
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card-body"
+          >
+            Ended: 
+            2020-10-28
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              See the results
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="month"
+        style="position: absolute; height: 100vh; width: 100%; display: block; transform: translate3d(0px,0,0);"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-header"
+          >
+            Started: 
+            2020-10-28
+            Ended: 
+            2020-10-29
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="mb-3 input-group"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <span
+                      class="input-group-text"
+                    >
+                      Name
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    data-testid="name"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <span
+                      class="input-group-text"
+                    >
+                      Amount
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    data-testid="amount"
+                    min="1"
+                    type="number"
+                    value=""
+                  />
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <button
+                      class="btn btn-outline-primary"
+                      type="button"
+                    >
+                      Save
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="list-group"
+                >
+                  <div
+                    class="list-group-item"
+                  >
+                    <div
+                      class="list-group list-group-horizontal"
+                    >
+                      <div
+                        class="list-group-item"
+                      >
+                        Teszt
+                      </div>
+                      <div
+                        class="list-group-item"
+                      >
+                        500
+                      </div>
+                      <div
+                        class="list-group-item list-group-item-danger"
+                      >
+                        Delete
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="list-group-item"
+                  >
+                    <div
+                      class="list-group list-group-horizontal"
+                    >
+                      <div
+                        class="list-group-item"
+                      >
+                        Teszt
+                      </div>
+                      <div
+                        class="list-group-item"
+                      >
+                        500
+                      </div>
+                      <div
+                        class="list-group-item list-group-item-danger"
+                      >
+                        Delete
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card-body"
+          >
+            Ended: 
+            2020-10-29
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              See the results
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        data-testid="month"
+        style="position: absolute; height: 100vh; width: 100%; display: block; transform: translate3d(1024px,0,0);"
+      >
+        <div
+          class="card"
+        >
+          <div
+            class="card-header"
+          >
+            Start a new period
+          </div>
+          <div
+            class="container"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="mb-3 input-group"
+                >
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <span
+                      class="input-group-text"
+                    >
+                      Name
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    data-testid="name"
+                    type="text"
+                    value=""
+                  />
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <span
+                      class="input-group-text"
+                    >
+                      Amount
+                    </span>
+                  </div>
+                  <input
+                    class="form-control"
+                    data-testid="amount"
+                    min="1"
+                    type="number"
+                    value=""
+                  />
+                  <div
+                    class="input-group-prepend"
+                  >
+                    <button
+                      class="btn btn-outline-primary"
+                      type="button"
+                    >
+                      Save
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row"
+            >
+              <div
+                class="container"
+              >
+                <div
+                  class="list-group"
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="card-body"
+          >
+            <button
+              class="btn btn-primary"
+              type="button"
+            >
+              Start this period
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Sanity snapshot test with 0 elements 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="Container"
+      />
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="Container"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

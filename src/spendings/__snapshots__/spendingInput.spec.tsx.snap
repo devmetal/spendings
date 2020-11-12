@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pre filles values 1`] = `
+<div>
+  <div
+    class="mb-3 input-group"
+  >
+    <div
+      class="input-group-prepend"
+    >
+      <span
+        class="input-group-text"
+      >
+        Name
+      </span>
+    </div>
+    <input
+      class="form-control"
+      data-testid="name"
+      type="text"
+      value="Hello"
+    />
+    <div
+      class="input-group-prepend"
+    >
+      <span
+        class="input-group-text"
+      >
+        Amount
+      </span>
+    </div>
+    <input
+      class="form-control"
+      data-testid="amount"
+      min="1"
+      type="number"
+      value="500"
+    />
+    <div
+      class="input-group-prepend"
+    >
+      <button
+        class="btn btn-outline-primary"
+        type="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Sanity snapshot test 1`] = `
+<div>
+  <div
+    class="mb-3 input-group"
+  >
+    <div
+      class="input-group-prepend"
+    >
+      <span
+        class="input-group-text"
+      >
+        Name
+      </span>
+    </div>
+    <input
+      class="form-control"
+      data-testid="name"
+      type="text"
+      value=""
+    />
+    <div
+      class="input-group-prepend"
+    >
+      <span
+        class="input-group-text"
+      >
+        Amount
+      </span>
+    </div>
+    <input
+      class="form-control"
+      data-testid="amount"
+      min="1"
+      type="number"
+      value=""
+    />
+    <div
+      class="input-group-prepend"
+    >
+      <button
+        class="btn btn-outline-primary"
+        type="button"
+      >
+        Save
+      </button>
+    </div>
+  </div>
+</div>
+`;
