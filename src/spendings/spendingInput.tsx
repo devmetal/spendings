@@ -1,12 +1,31 @@
 import React, { ChangeEvent, FC, useState, useEffect } from 'react';
-import FormControl from 'react-bootstrap/FormControl';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Button from 'react-bootstrap/Button';
+import {
+  TextField,
+  Button,
+  makeStyles,
+  createStyles,
+  Grid,
+} from '@material-ui/core';
+
+const useStyles = makeStyles(() =>
+  createStyles({
+    root: {
+      flexGrow: 1,
+    },
+    input: {
+      width: '100%',
+    },
+    button: {
+      width: '100%',
+    },
+  })
+);
 
 export interface SpendingInputProps {
   id?: number;
   amount?: number;
   name?: string;
+  saveLabel?: string;
   disabled: boolean;
   onCancel?: () => void;
   onSave: (spending: { id?: number; amount: number; name: string }) => void;
@@ -17,8 +36,12 @@ export const SpendingInput: FC<SpendingInputProps> = ({
   amount,
   name,
   onSave,
+  onCancel,
   disabled,
+  saveLabel = 'Save',
 }) => {
+  const classes = useStyles();
+
   const [amountVal, setAmountVal] = useState<string>(() => `${amount ?? ''}`);
   const [nameVal, setNameVal] = useState<string>(() => `${name ?? ''}`);
 
@@ -60,37 +83,70 @@ export const SpendingInput: FC<SpendingInputProps> = ({
   };
 
   return (
-    <InputGroup className="mb-3">
-      <InputGroup.Prepend>
-        <InputGroup.Text>Name</InputGroup.Text>
-      </InputGroup.Prepend>
-      <FormControl
-        data-testid="name"
-        disabled={disabled}
-        type="text"
-        value={nameVal}
-        onChange={handleNameChange}
-      />
-      <InputGroup.Prepend>
-        <InputGroup.Text>Amount</InputGroup.Text>
-      </InputGroup.Prepend>
-      <FormControl
-        data-testid="amount"
-        disabled={disabled}
-        type="number"
-        min="1"
-        value={amountVal}
-        onChange={handleAmountChange}
-      />
-      <InputGroup.Prepend>
-        <Button
-          disabled={disabled}
-          onClick={handleSave}
-          variant="outline-primary"
-        >
-          Save
-        </Button>
-      </InputGroup.Prepend>
-    </InputGroup>
+    <div className={classes.root}>
+      <form noValidate autoComplete="off">
+        <Grid container spacing={1}>
+          <Grid item sm={4} xs={12}>
+            <TextField
+              className={classes.input}
+              variant="outlined"
+              label="Name of the item"
+              size="small"
+              disabled={disabled}
+              value={nameVal}
+              onChange={handleNameChange}
+              InputProps={{
+                inputProps: {
+                  'data-testid': 'name',
+                },
+              }}
+              required
+            />
+          </Grid>
+          <Grid item sm={4} xs={12}>
+            <TextField
+              className={classes.input}
+              variant="outlined"
+              label="Amount of the item"
+              size="small"
+              disabled={disabled}
+              value={amountVal}
+              onChange={handleAmountChange}
+              type="number"
+              InputProps={{
+                inputProps: {
+                  'data-testid': 'amount',
+                },
+              }}
+              required
+            />
+          </Grid>
+          <Grid item xs>
+            <Button
+              className={classes.button}
+              variant="contained"
+              color="primary"
+              disabled={disabled}
+              onClick={handleSave}
+            >
+              {saveLabel}
+            </Button>
+          </Grid>
+          {onCancel && (
+            <Grid item xs>
+              <Button
+                className={classes.button}
+                variant="contained"
+                color="secondary"
+                disabled={disabled}
+                onClick={onCancel}
+              >
+                Cancel
+              </Button>
+            </Grid>
+          )}
+        </Grid>
+      </form>
+    </div>
   );
 };

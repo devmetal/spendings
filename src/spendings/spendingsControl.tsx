@@ -1,10 +1,16 @@
+import { createStyles, Grid, makeStyles } from '@material-ui/core';
 import React, { FC } from 'react';
-import Row from 'react-bootstrap/Row';
-import Container from 'react-bootstrap/Container';
-import Col from 'react-bootstrap/Container';
 import { TSpending } from '../types';
 import { SpendingInput } from './spendingInput';
-import { Spendings } from './spendings';
+import { SpendingsList } from './spendingsList';
+
+const useStyles = makeStyles(() =>
+  createStyles({
+    root: {
+      flexGrow: 1,
+    },
+  })
+);
 
 export interface SpendingsControlProps {
   spendings: Array<TSpending>;
@@ -19,22 +25,26 @@ export const SpendingsControl: FC<SpendingsControlProps> = ({
   onDelete,
   onUpdate,
 }) => {
+  const classes = useStyles();
+
   return (
-    <Container>
-      <Row>
-        <Col>
-          <SpendingInput onSave={onCreate} disabled={false} />
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <Spendings
+    <div className={classes.root}>
+      <Grid container>
+        <Grid item xs={12}>
+          <SpendingInput
+            saveLabel="Add spending"
+            onSave={onCreate}
+            disabled={false}
+          />
+        </Grid>
+        <Grid item xs={12}>
+          <SpendingsList
             spendings={spendings}
             onDelete={onDelete}
             onUpdate={onUpdate}
           />
-        </Col>
-      </Row>
-    </Container>
+        </Grid>
+      </Grid>
+    </div>
   );
 };

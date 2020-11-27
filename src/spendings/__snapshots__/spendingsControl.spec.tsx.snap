@@ -3,136 +3,445 @@
 exports[`Sanity snapshot test 1`] = `
 <div>
   <div
-    class="container"
+    class="makeStyles-root-1"
   >
     <div
-      class="row"
+      class="MuiGrid-root MuiGrid-container"
     >
       <div
-        class="container"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
       >
         <div
-          class="mb-3 input-group"
+          class="makeStyles-root-2"
         >
-          <div
-            class="input-group-prepend"
+          <form
+            autocomplete="off"
+            novalidate=""
           >
-            <span
-              class="input-group-text"
+            <div
+              class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1"
             >
-              Name
-            </span>
-          </div>
-          <input
-            class="form-control"
-            data-testid="name"
-            type="text"
-            value=""
-          />
-          <div
-            class="input-group-prepend"
-          >
-            <span
-              class="input-group-text"
-            >
-              Amount
-            </span>
-          </div>
-          <input
-            class="form-control"
-            data-testid="amount"
-            min="1"
-            type="number"
-            value=""
-          />
-          <div
-            class="input-group-prepend"
-          >
-            <button
-              class="btn btn-outline-primary"
-              type="button"
-            >
-              Save
-            </button>
-          </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root makeStyles-input-3"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                    data-shrink="false"
+                  >
+                    Name of the item
+                    <span
+                      aria-hidden="true"
+                      class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                      data-testid="name"
+                      required=""
+                      type="text"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-5 MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legendLabelled-7"
+                      >
+                        <span>
+                          Name of the item
+                           *
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+              >
+                <div
+                  class="MuiFormControl-root MuiTextField-root makeStyles-input-3"
+                >
+                  <label
+                    class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+                    data-shrink="false"
+                  >
+                    Amount of the item
+                    <span
+                      aria-hidden="true"
+                      class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+                    >
+                       
+                      *
+                    </span>
+                  </label>
+                  <div
+                    class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+                  >
+                    <input
+                      aria-invalid="false"
+                      class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                      data-testid="amount"
+                      required=""
+                      type="number"
+                      value=""
+                    />
+                    <fieldset
+                      aria-hidden="true"
+                      class="PrivateNotchedOutline-root-5 MuiOutlinedInput-notchedOutline"
+                    >
+                      <legend
+                        class="PrivateNotchedOutline-legendLabelled-7"
+                      >
+                        <span>
+                          Amount of the item
+                           *
+                        </span>
+                      </legend>
+                    </fieldset>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+              >
+                <button
+                  class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-4 MuiButton-containedPrimary"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiButton-label"
+                  >
+                    Add spending
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-    </div>
-    <div
-      class="row"
-    >
       <div
-        class="container"
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
       >
-        <div
-          class="list-group"
-        >
+        <div>
           <div
-            class="list-group-item"
+            class="makeStyles-root-9"
           >
             <div
-              class="list-group list-group-horizontal"
+              class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
               <div
-                class="list-group-item"
+                class="MuiCardContent-root"
               >
-                Teszt
+                <p
+                  class="MuiTypography-root makeStyles-name-10 MuiTypography-body1"
+                >
+                  Teszt
+                </p>
+                <p
+                  class="MuiTypography-root makeStyles-amount-11 MuiTypography-body1"
+                >
+                  100
+                   HUF
+                </p>
               </div>
               <div
-                class="list-group-item"
+                class="MuiCardActions-root MuiCardActions-spacing"
               >
-                100
-              </div>
-              <div
-                class="list-group-item list-group-item-danger"
-              >
-                Delete
+                <button
+                  aria-label="update"
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-primary"
+                  role="update-item"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  class="makeStyles-wrapper-12"
+                >
+                  <button
+                    aria-label="delete"
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    role="delete-item"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <div
+                    aria-valuenow="0"
+                    class="MuiCircularProgress-root makeStyles-fabProgress-13 MuiCircularProgress-colorPrimary MuiCircularProgress-determinate"
+                    role="progressbar"
+                    style="width: 40px; height: 40px; transform: rotate(-90deg);"
+                  >
+                    <svg
+                      class="MuiCircularProgress-svg"
+                      viewBox="22 22 44 44"
+                    >
+                      <circle
+                        class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate"
+                        cx="44"
+                        cy="44"
+                        fill="none"
+                        r="20.2"
+                        stroke-width="3.6"
+                        style="stroke-dasharray: 126.920; stroke-dashoffset: 126.920px;"
+                      />
+                    </svg>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div
-            class="list-group-item"
+            class="makeStyles-root-9"
           >
             <div
-              class="list-group list-group-horizontal"
+              class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
               <div
-                class="list-group-item"
+                class="MuiCardContent-root"
               >
-                Teszt1
+                <p
+                  class="MuiTypography-root makeStyles-name-10 MuiTypography-body1"
+                >
+                  Teszt1
+                </p>
+                <p
+                  class="MuiTypography-root makeStyles-amount-11 MuiTypography-body1"
+                >
+                  101
+                   HUF
+                </p>
               </div>
               <div
-                class="list-group-item"
+                class="MuiCardActions-root MuiCardActions-spacing"
               >
-                101
-              </div>
-              <div
-                class="list-group-item list-group-item-danger"
-              >
-                Delete
+                <button
+                  aria-label="update"
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-primary"
+                  role="update-item"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  class="makeStyles-wrapper-12"
+                >
+                  <button
+                    aria-label="delete"
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    role="delete-item"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <div
+                    aria-valuenow="0"
+                    class="MuiCircularProgress-root makeStyles-fabProgress-13 MuiCircularProgress-colorPrimary MuiCircularProgress-determinate"
+                    role="progressbar"
+                    style="width: 40px; height: 40px; transform: rotate(-90deg);"
+                  >
+                    <svg
+                      class="MuiCircularProgress-svg"
+                      viewBox="22 22 44 44"
+                    >
+                      <circle
+                        class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate"
+                        cx="44"
+                        cy="44"
+                        fill="none"
+                        r="20.2"
+                        stroke-width="3.6"
+                        style="stroke-dasharray: 126.920; stroke-dashoffset: 126.920px;"
+                      />
+                    </svg>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div
-            class="list-group-item"
+            class="makeStyles-root-9"
           >
             <div
-              class="list-group list-group-horizontal"
+              class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
               <div
-                class="list-group-item"
+                class="MuiCardContent-root"
               >
-                Teszt2
+                <p
+                  class="MuiTypography-root makeStyles-name-10 MuiTypography-body1"
+                >
+                  Teszt2
+                </p>
+                <p
+                  class="MuiTypography-root makeStyles-amount-11 MuiTypography-body1"
+                >
+                  102
+                   HUF
+                </p>
               </div>
               <div
-                class="list-group-item"
+                class="MuiCardActions-root MuiCardActions-spacing"
               >
-                102
-              </div>
-              <div
-                class="list-group-item list-group-item-danger"
-              >
-                Delete
+                <button
+                  aria-label="update"
+                  class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-primary"
+                  role="update-item"
+                  tabindex="0"
+                  type="button"
+                >
+                  <span
+                    class="MuiFab-label"
+                  >
+                    <svg
+                      aria-hidden="true"
+                      class="MuiSvgIcon-root"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="MuiTouchRipple-root"
+                  />
+                </button>
+                <div
+                  class="makeStyles-wrapper-12"
+                >
+                  <button
+                    aria-label="delete"
+                    class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+                    role="delete-item"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiFab-label"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root"
+                    />
+                  </button>
+                  <div
+                    aria-valuenow="0"
+                    class="MuiCircularProgress-root makeStyles-fabProgress-13 MuiCircularProgress-colorPrimary MuiCircularProgress-determinate"
+                    role="progressbar"
+                    style="width: 40px; height: 40px; transform: rotate(-90deg);"
+                  >
+                    <svg
+                      class="MuiCircularProgress-svg"
+                      viewBox="22 22 44 44"
+                    >
+                      <circle
+                        class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate"
+                        cx="44"
+                        cy="44"
+                        fill="none"
+                        r="20.2"
+                        stroke-width="3.6"
+                        style="stroke-dasharray: 126.920; stroke-dashoffset: 126.920px;"
+                      />
+                    </svg>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

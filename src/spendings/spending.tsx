@@ -1,6 +1,32 @@
 import React, { FC, useState } from 'react';
+import {
+  Card,
+  CardActions,
+  CardContent,
+  createStyles,
+  Fab,
+  makeStyles,
+  Typography,
+} from '@material-ui/core';
+import EditIcon from '@material-ui/icons/Edit';
 import { TSpending } from '../types';
-import { EditableSpending } from './editableSpending';
+import { SpendingInput } from './spendingInput';
+import { DeleteSpendingFab } from './deleteSpendingFab';
+
+const useStyles = makeStyles(() =>
+  createStyles({
+    root: {
+      flexGrow: 1,
+      marginBottom: '1rem',
+    },
+    name: {
+      fontSize: 16,
+    },
+    amount: {
+      fontSize: 14,
+    },
+  })
+);
 
 export interface SpendingProps {
   id: number;
@@ -17,40 +43,61 @@ export const Spending: FC<SpendingProps> = ({
   onDelete,
   onUpdate,
 }) => {
+  const classes = useStyles();
   const [editing, setEditing] = useState<boolean>(false);
-  const [deleting, setDeleting] = useState<boolean>(false);
 
-  const handleStartUpdate = () => setEditing(true);
+  const startUpdate = () => setEditing(true);
 
-  const handleCancelUpdate = () => setEditing(false);
+  const cancelUpdate = () => setEditing(false);
 
-  const handleStartDelete = () => setDeleting(true);
-
-  const handleCancelDelete = () => setDeleting(false);
-
-  const handleUpdate = (spending: TSpending) => {
+  const doUpdate = ({ name, amount }: { name: string; amount: number }) => {
     setEditing(false);
-    onUpdate(spending);
+    onUpdate({ name, amount, id });
   };
 
-  const handleDelete = (id: number) => {
-    setDeleting(false);
+  const doDelete = () => {
     onDelete(id);
   };
 
+  if (editing) {
+    return (
+      <div className={classes.root}>
+        <Card>
+          <CardContent>
+            <SpendingInput
+              id={id}
+              name={name}
+              amount={amount}
+              onCancel={cancelUpdate}
+              onSave={doUpdate}
+              disabled={false}
+            />
+          </CardContent>
+        </Card>
+      </div>
+    );
+  }
+
   return (
-    <EditableSpending
-      id={id}
-      name={name}
-      amount={amount}
-      onDelete={handleDelete}
-      onUpdate={handleUpdate}
-      onStartUpdate={handleStartUpdate}
-      onCancelUpdate={handleCancelUpdate}
-      onStartDelete={handleStartDelete}
-      onCancelDelete={handleCancelDelete}
-      userDeleting={deleting}
-      userEditing={editing}
-    />
+    <div className={classes.root}>
+      <Card>
+        <CardContent>
+          <Typography className={classes.name}>{name}</Typography>
+          <Typography className={classes.amount}>{amount} HUF</Typography>
+        </CardContent>
+        <CardActions>
+          <Fab
+            aria-label="update"
+            role="update-item"
+            size="small"
+            color="primary"
+            onClick={startUpdate}
+          >
+            <EditIcon />
+          </Fab>
+          <DeleteSpendingFab onDelete={doDelete} />
+        </CardActions>
+      </Card>
+    </div>
   );
 };

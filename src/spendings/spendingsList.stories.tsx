@@ -1,13 +1,13 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { SpendingsProps, Spendings } from './spendings';
+import { SpendingsListProps, SpendingsList } from './spendingsList';
 
 export default {
   title: 'Money/SpendingsList',
-  component: Spendings,
+  component: SpendingsList,
 } as Meta;
 
-const Template: Story<SpendingsProps> = (args) => <Spendings {...args} />;
+const Template: Story<SpendingsListProps> = (args) => <SpendingsList {...args} />;
 
 export const Basic = Template.bind({});
 Basic.args = {

@@ -20,6 +20,12 @@ const props = {
       spendings: [
         { id: 1, name: 'Teszt', amount: 500 },
         { id: 2, name: 'Teszt', amount: 500 },
+        { id: 11, name: 'Teszt', amount: 500 },
+        { id: 22, name: 'Teszt', amount: 500 },
+        { id: 33, name: 'Teszt', amount: 500 },
+        { id: 44, name: 'Teszt', amount: 500 },
+        { id: 55, name: 'Teszt', amount: 500 },
+        { id: 66, name: 'Teszt', amount: 500 },
       ],
     },
     {

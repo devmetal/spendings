@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, wait } from '@testing-library/react';
+import { fireEvent, render, waitFor } from '@testing-library/react';
 import React from 'react';
 import { SpendingsControl } from './spendingsControl';
 
@@ -20,15 +20,19 @@ test('Sanity snapshot test', () => {
 
 describe('Interaction test', () => {
   test('update a spending', async () => {
-    const { getByText, queryByText, getAllByText, getAllByTestId } = render(
-      <SpendingsControl {...props} />
-    );
-    fireEvent.click(getByText('Teszt'));
+    const {
+      getByText,
+      getAllByRole,
+      queryByText,
+      getAllByText,
+      getAllByTestId,
+    } = render(<SpendingsControl {...props} />);
+    fireEvent.click(getAllByRole('update-item')[0]);
 
     /**
      * Wait for form is visible
      */
-    await wait(() => expect(getByText('Cancel')).toBeVisible());
+    await waitFor(() => expect(getByText('Cancel')).toBeVisible());
 
     fireEvent.change(getAllByTestId('name')[1], {
       target: { value: 'Updated' },
@@ -36,12 +40,12 @@ describe('Interaction test', () => {
     fireEvent.change(getAllByTestId('amount')[1], {
       target: { value: '500' },
     });
-    fireEvent.click(getAllByText('Save')[1]);
+    fireEvent.click(getAllByText('Save')[0]);
 
     /**
      * Form has to be dissapear
      */
-    await wait(() => expect(queryByText('Cancel')).toBeNull());
+    await waitFor(() => expect(queryByText('Cancel')).toBeNull());
 
     expect(props.onUpdate).toBeCalledWith({
       id: 1,

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sanity snapshot test 1`] = `
+<div>
+  <div
+    class="makeStyles-wrapper-1"
+  >
+    <button
+      aria-label="delete"
+      class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+      role="delete-item"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiFab-label"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+          />
+        </svg>
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+    <div
+      aria-valuenow="0"
+      class="MuiCircularProgress-root makeStyles-fabProgress-2 MuiCircularProgress-colorPrimary MuiCircularProgress-determinate"
+      role="progressbar"
+      style="width: 40px; height: 40px; transform: rotate(-90deg);"
+    >
+      <svg
+        class="MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20.2"
+          stroke-width="3.6"
+          style="stroke-dasharray: 126.920; stroke-dashoffset: 126.920px;"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;

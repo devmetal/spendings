@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sanity snapshot testing 1`] = `
+<div>
+  <div>
+    <div
+      class="makeStyles-root-1"
+    >
+      <div
+        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+      >
+        <div
+          class="MuiCardContent-root"
+        >
+          <p
+            class="MuiTypography-root makeStyles-name-2 MuiTypography-body1"
+          >
+            test
+          </p>
+          <p
+            class="MuiTypography-root makeStyles-amount-3 MuiTypography-body1"
+          >
+            10
+             HUF
+          </p>
+        </div>
+        <div
+          class="MuiCardActions-root MuiCardActions-spacing"
+        >
+          <button
+            aria-label="update"
+            class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-primary"
+            role="update-item"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiFab-label"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                />
+              </svg>
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            class="makeStyles-wrapper-4"
+          >
+            <button
+              aria-label="delete"
+              class="MuiButtonBase-root MuiFab-root MuiFab-sizeSmall MuiFab-secondary"
+              role="delete-item"
+              tabindex="0"
+              type="button"
+            >
+              <span
+                class="MuiFab-label"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"
+                  />
+                </svg>
+              </span>
+              <span
+                class="MuiTouchRipple-root"
+              />
+            </button>
+            <div
+              aria-valuenow="0"
+              class="MuiCircularProgress-root makeStyles-fabProgress-5 MuiCircularProgress-colorPrimary MuiCircularProgress-determinate"
+              role="progressbar"
+              style="width: 40px; height: 40px; transform: rotate(-90deg);"
+            >
+              <svg
+                class="MuiCircularProgress-svg"
+                viewBox="22 22 44 44"
+              >
+                <circle
+                  class="MuiCircularProgress-circle MuiCircularProgress-circleDeterminate"
+                  cx="44"
+                  cy="44"
+                  fill="none"
+                  r="20.2"
+                  stroke-width="3.6"
+                  style="stroke-dasharray: 126.920; stroke-dashoffset: 126.920px;"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

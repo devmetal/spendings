@@ -3,49 +3,127 @@
 exports[`Pre filles values 1`] = `
 <div>
   <div
-    class="mb-3 input-group"
+    class="makeStyles-root-8"
   >
-    <div
-      class="input-group-prepend"
+    <form
+      autocomplete="off"
+      novalidate=""
     >
-      <span
-        class="input-group-text"
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1"
       >
-        Name
-      </span>
-    </div>
-    <input
-      class="form-control"
-      data-testid="name"
-      type="text"
-      value="Hello"
-    />
-    <div
-      class="input-group-prepend"
-    >
-      <span
-        class="input-group-text"
-      >
-        Amount
-      </span>
-    </div>
-    <input
-      class="form-control"
-      data-testid="amount"
-      min="1"
-      type="number"
-      value="500"
-    />
-    <div
-      class="input-group-prepend"
-    >
-      <button
-        class="btn btn-outline-primary"
-        type="button"
-      >
-        Save
-      </button>
-    </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root makeStyles-input-9"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-marginDense MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
+              data-shrink="true"
+            >
+              Name of the item
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                data-testid="name"
+                required=""
+                type="text"
+                value="Hello"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-11 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-13 PrivateNotchedOutline-legendNotched-14"
+                >
+                  <span>
+                    Name of the item
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root makeStyles-input-9"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiInputLabel-marginDense MuiInputLabel-outlined MuiFormLabel-filled Mui-required Mui-required"
+              data-shrink="true"
+            >
+              Amount of the item
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                data-testid="amount"
+                required=""
+                type="number"
+                value="500"
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-11 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-13 PrivateNotchedOutline-legendNotched-14"
+                >
+                  <span>
+                    Amount of the item
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-10 MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Save
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </form>
   </div>
 </div>
 `;
@@ -53,49 +131,127 @@ exports[`Pre filles values 1`] = `
 exports[`Sanity snapshot test 1`] = `
 <div>
   <div
-    class="mb-3 input-group"
+    class="makeStyles-root-1"
   >
-    <div
-      class="input-group-prepend"
+    <form
+      autocomplete="off"
+      novalidate=""
     >
-      <span
-        class="input-group-text"
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1"
       >
-        Name
-      </span>
-    </div>
-    <input
-      class="form-control"
-      data-testid="name"
-      type="text"
-      value=""
-    />
-    <div
-      class="input-group-prepend"
-    >
-      <span
-        class="input-group-text"
-      >
-        Amount
-      </span>
-    </div>
-    <input
-      class="form-control"
-      data-testid="amount"
-      min="1"
-      type="number"
-      value=""
-    />
-    <div
-      class="input-group-prepend"
-    >
-      <button
-        class="btn btn-outline-primary"
-        type="button"
-      >
-        Save
-      </button>
-    </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root makeStyles-input-2"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+              data-shrink="false"
+            >
+              Name of the item
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                data-testid="name"
+                required=""
+                type="text"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-4 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-6"
+                >
+                  <span>
+                    Name of the item
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-4"
+        >
+          <div
+            class="MuiFormControl-root MuiTextField-root makeStyles-input-2"
+          >
+            <label
+              class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-marginDense MuiInputLabel-outlined Mui-required Mui-required"
+              data-shrink="false"
+            >
+              Amount of the item
+              <span
+                aria-hidden="true"
+                class="MuiFormLabel-asterisk MuiInputLabel-asterisk"
+              >
+                 
+                *
+              </span>
+            </label>
+            <div
+              class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-formControl MuiInputBase-marginDense MuiOutlinedInput-marginDense"
+            >
+              <input
+                aria-invalid="false"
+                class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputMarginDense MuiOutlinedInput-inputMarginDense"
+                data-testid="amount"
+                required=""
+                type="number"
+                value=""
+              />
+              <fieldset
+                aria-hidden="true"
+                class="PrivateNotchedOutline-root-4 MuiOutlinedInput-notchedOutline"
+              >
+                <legend
+                  class="PrivateNotchedOutline-legendLabelled-6"
+                >
+                  <span>
+                    Amount of the item
+                     *
+                  </span>
+                </legend>
+              </fieldset>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-true"
+        >
+          <button
+            class="MuiButtonBase-root MuiButton-root MuiButton-contained makeStyles-button-3 MuiButton-containedPrimary"
+            tabindex="0"
+            type="button"
+          >
+            <span
+              class="MuiButton-label"
+            >
+              Save
+            </span>
+            <span
+              class="MuiTouchRipple-root"
+            />
+          </button>
+        </div>
+      </div>
+    </form>
   </div>
 </div>
 `;

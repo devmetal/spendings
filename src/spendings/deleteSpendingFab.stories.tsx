@@ -1,16 +1,16 @@
 import React from 'react';
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { SpendingInput, SpendingInputProps } from './spendingInput';
+import { DeleteSpendingFab, DeleteSpendingFabProps } from './deleteSpendingFab';
 import { CssBaseline } from '@material-ui/core';
 
 export default {
-  title: 'Money/SpendingsInput',
-  component: SpendingInput,
+  title: 'Money/DeleteSpendingFab',
+  component: DeleteSpendingFab,
 } as Meta;
 
-const Template: Story<SpendingInputProps> = (args) => (
+const Template: Story<DeleteSpendingFabProps> = (args) => (
   <CssBaseline>
-    <SpendingInput {...args} />
+    <DeleteSpendingFab {...args} />
   </CssBaseline>
 );
 
