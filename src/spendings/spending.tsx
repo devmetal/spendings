@@ -19,6 +19,9 @@ const useStyles = makeStyles(() =>
       flexGrow: 1,
       marginBottom: '1rem',
     },
+    card: {
+      overflow: 'visible',
+    },
     name: {
       fontSize: 16,
     },
@@ -80,7 +83,7 @@ export const Spending: FC<SpendingProps> = ({
 
   return (
     <div className={classes.root}>
-      <Card>
+      <Card className={classes.card}>
         <CardContent>
           <Typography className={classes.name}>{name}</Typography>
           <Typography className={classes.amount}>{amount} HUF</Typography>

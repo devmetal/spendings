@@ -18,7 +18,7 @@ test('Holding down 1500ms fire the onDelete event', async () => {
   evt.initEvent('mousedown', true, true);
 
   fireEvent(screen.getByRole('delete-item'), evt);
-  await delay(1600);
+  await delay(1800);
   expect(onDelete).toBeCalled();
 });
 
@@ -40,6 +40,6 @@ test('Holding down and release have to reset the delete counter', async () => {
   expect(onDelete).not.toBeCalled();
 
   fireEvent(button, down);
-  await delay(1600);
+  await delay(1800);
   expect(onDelete).toBeCalledTimes(1);
 });

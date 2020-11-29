@@ -40,7 +40,7 @@ describe('interactions', () => {
     const evt = document.createEvent('MouseEvents');
     evt.initEvent('mousedown', true, true);
     fireEvent(deleteBtn, evt);
-    await delay(1600);
+    await delay(1800);
     expect(props.onDelete).toBeCalled();
   });
 });

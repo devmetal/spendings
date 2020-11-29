@@ -7,18 +7,18 @@ exports[`Sanity snapshot testing 1`] = `
       class="makeStyles-root-1"
     >
       <div
-        class="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+        class="MuiPaper-root MuiCard-root makeStyles-card-2 MuiPaper-elevation1 MuiPaper-rounded"
       >
         <div
           class="MuiCardContent-root"
         >
           <p
-            class="MuiTypography-root makeStyles-name-2 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-name-3 MuiTypography-body1"
           >
             test
           </p>
           <p
-            class="MuiTypography-root makeStyles-amount-3 MuiTypography-body1"
+            class="MuiTypography-root makeStyles-amount-4 MuiTypography-body1"
           >
             10
              HUF
@@ -53,7 +53,7 @@ exports[`Sanity snapshot testing 1`] = `
             />
           </button>
           <div
-            class="makeStyles-wrapper-4"
+            class="makeStyles-wrapper-5"
           >
             <button
               aria-label="delete"
@@ -82,9 +82,9 @@ exports[`Sanity snapshot testing 1`] = `
             </button>
             <div
               aria-valuenow="0"
-              class="MuiCircularProgress-root makeStyles-fabProgress-5 MuiCircularProgress-colorPrimary MuiCircularProgress-determinate"
+              class="MuiCircularProgress-root makeStyles-fabProgress-6 MuiCircularProgress-colorPrimary MuiCircularProgress-determinate"
               role="progressbar"
-              style="width: 40px; height: 40px; transform: rotate(-90deg);"
+              style="width: 50px; height: 50px; transform: rotate(-90deg);"
             >
               <svg
                 class="MuiCircularProgress-svg"

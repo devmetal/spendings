@@ -13,6 +13,7 @@ import { red } from '@material-ui/core/colors';
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     wrapper: {
+      //transition: '1.5s ease-in transform',
       position: 'relative',
       margin: theme.spacing(1),
       zIndex: 1,
@@ -20,8 +21,8 @@ const useStyles = makeStyles((theme: Theme) =>
     fabProgress: {
       color: red[600],
       position: 'absolute',
-      top: -40,
-      left: 20,
+      top: -5,
+      left: -5,
       zIndex: 1,
     },
   })
@@ -34,7 +35,7 @@ export interface DeleteSpendingFabProps {
 const AnimatedProgress = animated(
   ({ step, className }: { step: number; className: string }) => (
     <CircularProgress
-      size={40}
+      size={50}
       variant="determinate"
       className={className}
       value={step}
@@ -47,7 +48,7 @@ export const DeleteSpendingFab: FC<DeleteSpendingFabProps> = ({ onDelete }) => {
   const [down, setIsDown] = useState(false);
 
   const { step } = useSpring({
-    config: { duration: 1500, precision: 0.1 },
+    config: { duration: 1700, precision: 0.1 },
     step: down ? 5 : 1,
     immediate: !down,
     onRest: () => {
@@ -79,6 +80,7 @@ export const DeleteSpendingFab: FC<DeleteSpendingFabProps> = ({ onDelete }) => {
       onMouseOut={() => {
         setIsDown(false);
       }}
+      style={down ? { transform: 'scale(3.0)' } : undefined}
     >
       <Fab
         size="small"
