@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { TSpending } from '../types';
 import { Spending } from './spending';
 

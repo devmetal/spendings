@@ -1,5 +1,5 @@
 import { createStyles, Grid, makeStyles } from '@material-ui/core';
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { TSpending } from '../types';
 import { SpendingInput } from './spendingInput';
 import { SpendingsList } from './spendingsList';

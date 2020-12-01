@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import subDays from 'date-fns/subDays';
 import { Months } from './months/months';
 

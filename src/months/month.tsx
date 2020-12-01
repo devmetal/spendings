@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import { FC } from 'react';
 import { Card, CardContent, CardHeader, IconButton } from '@material-ui/core';
 import SpeedIcon from '@material-ui/icons/Speed';
 import CloseIcon from '@material-ui/icons/Close';

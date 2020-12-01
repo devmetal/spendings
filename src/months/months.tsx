@@ -1,4 +1,4 @@
-import React, { FC, useRef } from 'react';
+import { FC, useRef } from 'react';
 import { useSprings, animated } from 'react-spring';
 import { useGesture } from 'react-use-gesture';
 import clamp from 'lodash/clamp';

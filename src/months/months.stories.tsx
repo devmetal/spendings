@@ -1,4 +1,3 @@
-import React from 'react';
 import { Meta, Story } from '@storybook/react/types-6-0';
 import subDays from 'date-fns/subDays';
 import { Months, MonthsProps } from './months';
