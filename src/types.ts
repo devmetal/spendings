@@ -4,6 +4,10 @@ export type TSpending = {
   amount: number;
 };
 
-type TMonth = {
+export type TMonth = {
+  id: string;
   num: number;
+  startedAt: Date;
+  endedAt?: Date;
+  spendings: TSpending[];
 };
