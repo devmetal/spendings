@@ -9,5 +9,4 @@ export type TMonth = {
   num: number;
   startedAt: Date;
   endedAt?: Date;
-  spendings: TSpending[];
 };
