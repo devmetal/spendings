@@ -32,10 +32,10 @@ const useStyles = makeStyles(() =>
 );
 
 export interface SpendingProps {
-  id: number;
+  id: string;
   name: string;
   amount: number;
-  onDelete: (id: number) => void;
+  onDelete: (id: string) => void;
   onUpdate: (spending: TSpending) => void;
 }
 

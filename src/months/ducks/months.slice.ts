@@ -74,7 +74,7 @@ const slice = createSlice({
     },
     removeSpending(
       state,
-      action: PayloadAction<{ monthId: string; spendingId: number }>
+      action: PayloadAction<{ monthId: string; spendingId: string }>
     ) {
       const { monthId, spendingId } = action.payload;
 

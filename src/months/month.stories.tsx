@@ -12,10 +12,10 @@ export const BasicStarted = Template.bind({});
 BasicStarted.args = {
   startedAt: new Date(),
   spendings: [
-    { id: 1, name: 'Tesz', amount: 500 },
-    { id: 2, name: 'Tesz', amount: 500 },
-    { id: 3, name: 'Tesz', amount: 500 },
-    { id: 4, name: 'Tesz', amount: 500 },
+    { id: '1', name: 'Tesz', amount: 500 },
+    { id: '2', name: 'Tesz', amount: 500 },
+    { id: '3', name: 'Tesz', amount: 500 },
+    { id: '4', name: 'Tesz', amount: 500 },
   ],
 };
 
@@ -24,10 +24,10 @@ BasicEnded.args = {
   startedAt: new Date(),
   endedAt: new Date(),
   spendings: [
-    { id: 1, name: 'Tesz', amount: 500 },
-    { id: 2, name: 'Tesz', amount: 500 },
-    { id: 3, name: 'Tesz', amount: 500 },
-    { id: 4, name: 'Tesz', amount: 500 },
+    { id: '1', name: 'Tesz', amount: 500 },
+    { id: '2', name: 'Tesz', amount: 500 },
+    { id: '3', name: 'Tesz', amount: 500 },
+    { id: '4', name: 'Tesz', amount: 500 },
   ],
 };
 

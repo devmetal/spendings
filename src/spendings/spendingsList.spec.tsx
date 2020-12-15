@@ -8,7 +8,7 @@ const props = {
   onUpdate: jest.fn(),
   spendings: [
     {
-      id: 0,
+      id: '0',
       amount: 10,
       name: 'test',
     },

@@ -1,12 +1,11 @@
 export type TSpending = {
-  id: number;
+  id: string;
   name: string;
   amount: number;
 };
 
 export type TMonth = {
   id: string;
-  num: number;
   startedAt: Date;
   endedAt?: Date;
 };

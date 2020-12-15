@@ -6,9 +6,9 @@ const props = {
   onUpdate: jest.fn(),
   onDelete: jest.fn(),
   spendings: [
-    { id: 1, amount: 100, name: 'Teszt' },
-    { id: 2, amount: 101, name: 'Teszt1' },
-    { id: 3, amount: 102, name: 'Teszt2' },
+    { id: '1', amount: 100, name: 'Teszt' },
+    { id: '2', amount: 101, name: 'Teszt1' },
+    { id: '3', amount: 102, name: 'Teszt2' },
   ],
 };
 
@@ -47,7 +47,7 @@ describe('Interaction test', () => {
     await waitFor(() => expect(queryByText('Cancel')).toBeNull());
 
     expect(props.onUpdate).toBeCalledWith({
-      id: 1,
+      id: '1',
       amount: 500,
       name: 'Updated',
     });

@@ -22,13 +22,13 @@ const useStyles = makeStyles(() =>
 );
 
 export interface SpendingInputProps {
-  id?: number;
+  id?: string;
   amount?: number;
   name?: string;
   saveLabel?: string;
   disabled: boolean;
   onCancel?: () => void;
-  onSave: (spending: { id?: number; amount: number; name: string }) => void;
+  onSave: (spending: { id?: string; amount: number; name: string }) => void;
 }
 
 export const SpendingInput: FC<SpendingInputProps> = ({

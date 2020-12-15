@@ -14,7 +14,7 @@ export interface SpendingsListProps {
   /**
    * User start delete
    */
-  onDelete: (id: number) => void;
+  onDelete: (id: string) => void;
 }
 
 /**

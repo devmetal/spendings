@@ -14,7 +14,7 @@ const useStyles = makeStyles(() =>
 
 export interface SpendingsControlProps {
   spendings: Array<TSpending>;
-  onDelete: (id: number) => void;
+  onDelete: (id: string) => void;
   onUpdate: (spending: TSpending) => void;
   onCreate: (spending: { amount: number; name: string }) => void;
 }

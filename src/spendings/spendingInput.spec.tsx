@@ -12,7 +12,7 @@ test('Pre filles values', () => {
   const { container } = render(
     <SpendingInput
       disabled={false}
-      id={1}
+      id={'1'}
       amount={500}
       name="Hello"
       onSave={jest.fn()}
