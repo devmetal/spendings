@@ -1,4 +1,4 @@
-import { fireEvent, render, screen, wait } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import subDays from 'date-fns/subDays';
 import { Months } from './months';
 
