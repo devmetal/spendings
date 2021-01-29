@@ -8,37 +8,51 @@ type MonthsState = {
   spendingsByMonths: {
     [id: string]: TSpending[];
   };
+  stored: string[];
 };
 
 const initialState: MonthsState = {
+  stored: [],
   months: {},
   spendingsByMonths: {},
 };
 
-export const startCreateMonth = createAction('months/startCreateMonth');
-export const createMonthFinish = createAction<{ success: boolean }>(
-  'month/screateMonthFinish'
+export const createMonth = createAction('months/startCreateMonth');
+
+export const monthStored = createAction<{
+  month: TMonth;
+}>('month/monthStored');
+
+export const monthStoreFailed = createAction<{ month?: TMonth }>(
+  'month/monthStoreFailed'
 );
 
 export const startRemoveMonth = createAction<{ id: string }>(
   'months/startRemoveMonth'
 );
+
 export const removeMonthFinish = createAction<{ success: boolean }>(
   'months/removeMonthFinish'
 );
 
-export const startCreateSpending = createAction<{
-  monthId: string;
+export const createSpending = createAction<{
+  monthId?: string;
   spending: TSpending;
-}>('months/startCreateSpending');
-export const createSpendingFinish = createAction<{ success: boolean }>(
-  'months/createSpendingFinish'
+}>('months/createSpending');
+
+export const spendingStored = createAction<{ spending: TSpending }>(
+  'months/spendingStored'
+);
+
+export const spendingStoreFailed = createAction<{ spending: TSpending }>(
+  'months/storeSpendingFailed'
 );
 
 export const startUpdateSpending = createAction<{
   monthId: string;
   spending: TSpending;
 }>('months/startUpdateSpending');
+
 export const updateSpendingFinish = createAction<{ success: boolean }>(
   'months/updateSpendingFinish'
 );
@@ -47,6 +61,7 @@ export const startRemoveSpending = createAction<{
   monthId: string;
   spendingId: string;
 }>('months/startRemoveSpending');
+
 export const removeSpendingFinish = createAction<{ success: boolean }>(
   'months/removeSpendingFinish'
 );
@@ -55,7 +70,7 @@ const slice = createSlice({
   name: 'months',
   initialState,
   reducers: {
-    createMonth(state, action: PayloadAction<TMonth>) {
+    addMonth(state, action: PayloadAction<TMonth>) {
       const { id } = action.payload;
       state.months[id] = action.payload;
       state.spendingsByMonths[id] = [];
@@ -101,10 +116,19 @@ const slice = createSlice({
       }
     },
   },
+  extraReducers: (builder) => {
+    builder
+      .addCase(monthStored, (state, action) => {
+        state.stored.push(action.payload.month.id);
+      })
+      .addCase(spendingStored, (state, action) => {
+        state.stored.push(action.payload.spending.id);
+      });
+  },
 });
 
 export const {
-  createMonth,
+  addMonth,
   removeMonth,
   addSpending,
   removeSpending,
